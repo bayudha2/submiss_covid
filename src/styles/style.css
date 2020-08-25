@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 350px 100px 350px 250px;
+    background-color: #255c69;
+    text-align: left;
+    color: white;
+}
+
+.infoWeb {
+    flex-basis: 30%;
+}
+
+.infoWeb h1 {
+    font-size: 36px;
+}
+
+.infoWeb p {
+    padding-top: 5px;
+    line-height: 200%;
+    font-size: 18px;
+}
+
+glob-card {
+    margin-left: 400px;
+}
+
+.Global {
+    font-size: 20px;
+    padding: 40px 300px 100px 300px;
+    background-color: #0f4866;
+    text-align: left;
+    color: white;
+}
+
+.infoGlob {
+    text-align: center;
+}
+
+.Kontak {
+    font-size: 20px;
+    padding: 40px 300px 100px 300px;
+    background-color: #e7e7e7;
+    text-align: left;
+    color: white;
+}
+
+.infoKontak {
+    text-align: center;
+}
+
+footer {
+    padding: 10px 0 10px 30px;
+    border-top: 1px solid black;
+    color: white;
+    background-color: #2b3a42;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    glob-card {
+        margin-left: 100px;
+    }
+}
